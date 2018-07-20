@@ -1,0 +1,40 @@
+#top-nav{
+    background-color:white;
+    color:orange;
+   padding-right:100px;
+   text-align: right;
+   width:100vw;
+   height:50px;
+   align-self: auto;
+   a{
+       color:orange;
+       text-decoration: none;
+       &:hover{
+           color:rgb(199, 133, 11);
+       }
+   }
+
+   
+}
+button{
+    font-size:10px;
+    background-color:white;
+    border: 1px solid gray;
+}
+#first-part{
+    padding-top:50px;
+    background-image: url("././../assets/bg-pattern.png"),linear-gradient(to right, #e24a4a , purple);
+    height:auto !important;
+    min-height:90vh;
+   // margin-top:100px;
+}
+#second-part{
+    background-color:orange;
+}
+#bottom-nav{
+    background-color:rgb(32, 29, 29);
+    height:92px;
+    color:gray;
+    text-align: center;
+    padding-top:25px;
+}
